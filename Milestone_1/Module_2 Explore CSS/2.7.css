@@ -1,0 +1,14 @@
+.blog{
+    margin: 40px;
+    background-color: aquamarine;
+    border: 5px solid orange;
+    box-shadow: 10px 10px 30px aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+h2{
+    font-size: 30px;
+    text-decoration:overline;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Universal Selector  */
+        * {
+            margin: 20px;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h3 {
+            color: rgb(170, 125, 12);
+            font-weight: bold;
+        }
+
+        /*  Class Selector */
+        .marks {
+            color: green;
+            font-size: 18px;
+        }
+
+        /*  ID Selector */
+        #fail {
+            color: red;
+        }
+
+        /* Element Selector */
+        div p {
+            color: blue;
+        }
+
+        /*  Grouping Selector */
+        h2,
+        h3,
+        h4,
+        ol,
+        li,
+        p,
+        div {
+            background-color: skyblue;
+            padding: 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Do you know about CSS Selectors?</h2>
+    <h4>They are - </h4>
+
+    <li>Class Selector</li>
+    <li>Id Selector</li>
+    <li>Element Selector</li>
+    <li>Universal Selector</li>
+    <li>Grouping Selector Selector</li>
+
+    <p>Here are example for selector : -</p>
+    <h3> Class, ID selector</h3>
+    <p>Anik got his result, let's see what marks he got in all subject</p>
+    <ol>
+        <li class="marks">Bangla = 60</li>
+        <li class="marks">English = 33</li>
+        <li class="marks" id="fail">Math = 20</li>
+        <li class="marks">General Knowledge = 65</li>
+    </ol>
+
+    <div>
+        <h3>Element Selector</h3>
+
+        <!--  Css property is used here -->
+        <p>This is paragraph will be selected</p>
+    </div>
+</body>
+
+</html>

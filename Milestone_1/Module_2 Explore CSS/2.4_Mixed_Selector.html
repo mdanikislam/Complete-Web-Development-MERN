@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+<style>
+p{
+    color: red;
+}
+.common{
+    background-color: skyblue;
+}
+.cmn-txt{
+ font-weight: bolder;
+ font-size: 20px;
+}
+#four{
+   color: blueviolet;
+}
+
+input[type="text"]:focus {
+    width: 250px;
+    color:red;
+  }
+</style>
+</head>
+<body>
+  <h3>Exploring Mixed Selector</h3>
+  <p class="common cmn-txt">First line css</p>
+  <p>Second line css</p>
+  <p class="common">Third line css</p>
+  <p id="four">Fourth line css</p>
+  <p class="common cmn-txt">Fifth line css</p>
+  <br><br>
+
+  <input type="text">
+  <input type="password" name="" id="">
+</body>
+</html>
