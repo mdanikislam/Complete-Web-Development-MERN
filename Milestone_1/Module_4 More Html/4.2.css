@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(192, 253, 233);
+}
+
+nav {
+    text-align: center;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* body section */
+main{
+    margin: 0 100px;
+    text-align: justify;
+}
+
+figure{
+    /* display: flex;
+    justify-content: center;
+ */
+ text-align: center;
+}
+    
+/* footer section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
