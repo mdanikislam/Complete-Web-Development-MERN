@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3:hover {
+            color: tomato;
+            background-color: aquamarine;
+        }
+
+        input:focus {
+            color: red;
+            padding: 10px;
+            border: 0;
+            background-color: rgb(189, 236, 95);
+            outline: 0;
+            border-radius: 10px;
+        }
+
+        a:visited {
+            color: gray
+        }
+
+        li:last-child {
+            color: red;
+        }
+        li:first-child{
+            color: rgb(113, 121, 5);
+        }
+        li:nth-child(2n+1){
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>My Heading</h3>
+    <input type="text"><br>
+    <input type="text"><br>
+    <a href="http://google.com" target="_blank">Google</a><br>
+    <a href="http://facebook.com" target="_blank">Facebook</a><br>
+    <a href="http://fifa.com" target="_blank">FIFA</a><br>
+    <ul>
+        <li>alia</li>
+        <li>Dalia</li>
+        <li>Malia </li>
+        <li>Salia</li>
+        <li>Kalia</li>
+        <li>Jalia</li>
+    </ul>
+</body>
+
+</html>
