@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .box{
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding: 20px;
+        
+    }
+    .box-container{
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .small-box{
+        background-color:blueviolet;
+        padding: 20px;
+    }
+
+   /* for responsive */
+   @media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+    }
+   } 
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellat consectetur cupiditate atque sit harum vitae eligendi excepturi possimus ut?</p>
+        </div>
+        <div class="box">
+            <h3>Heading 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam sunt fugit, non perferendis dolorum ipsam esse maiores tenetur quidem.</p>
+        </div>
+    </div><br><br>
+    <div class="box-container">
+        <div class="small-box">Box No -1</div>
+        <div class="small-box">Box No -2</div>
+        <div class="small-box">Box No -3</div>
+        <div class="small-box">Box No -4</div>
+        <div class="small-box">Box No -5</div>
+        <div class="small-box">Box No -6</div>
+        <div class="small-box">Box No -7</div>
+        <div class="small-box">Box No -8</div>
+        <div class="small-box">Box No -9</div>
+        <div class="small-box">Box No -10</div>
+    </div>
+</body>
+</html>
